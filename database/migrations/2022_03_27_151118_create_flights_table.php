@@ -24,6 +24,7 @@ class CreateFlightsTable extends Migration
             $table->date('arrival_time');
             $table->time('boarding_hour');
             $table->time('arrival_hour');
+            $table->string('reservation_code')->nullable();
             $table->timestamps();
         });
     }

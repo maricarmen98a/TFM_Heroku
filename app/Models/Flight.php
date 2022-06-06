@@ -17,6 +17,7 @@ class Flight extends Model
         'arrival_time',
         'boarding_hour',
         'arrival_hour',
+        'reservation_code'
     ];
     protected $hidden = [
         'created_at',

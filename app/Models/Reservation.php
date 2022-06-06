@@ -33,4 +33,8 @@ class Reservation extends Model
       return $this->belongsTo('App\User');
     }
     
+   /*  public function getReservationCodeAttribute()
+    {
+      return $this->reservation_code;
+    } */
 }
